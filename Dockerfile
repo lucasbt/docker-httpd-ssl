@@ -1,4 +1,4 @@
-FROM lucasbt:httpd
+FROM lucasbt/docker-httpd
 MAINTAINER Lucas Bittencourt <lucasbt@gmail.com>
 
 COPY ssl/certs/server.crt /usr/local/apache2/conf/server.crt
